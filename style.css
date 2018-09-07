@@ -85,17 +85,16 @@ header {
 
 .astronaut-card-container {
   display: flex;
-justify-content: space-around;
-align-items: center;
-
-
-
+  justify-content: space-between;
+  align-items: stretch;
 }
 
+.astronaut-card-container > p{
+  
+}
 .astronaut-card {
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
   margin: 1em 0;
   background-color: #f4f2f2;
   color: #1c1c1c;
@@ -105,11 +104,16 @@ align-items: center;
 
 }
 
-.astronaut-card-information > h4 {
-  margin: 0;
+.astronaut-card-information > p {
+  display: flex;
+  width: 279.99px;
+  flex-flow: wrap;
 }
 
 .astronaut-img {
+  display: flex;
+
+
 
 
 }
